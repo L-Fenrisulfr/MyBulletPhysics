@@ -211,7 +211,7 @@ void GLArea::paintGL()
 
 
     // Affichage d'une particule
-    vbo_particule.bind();
+    /*vbo_particule.bind();
     program_particule->bind(); // active le shader program des particules
 
     QMatrix4x4 modelMatrixParticule;
@@ -235,7 +235,7 @@ void GLArea::paintGL()
 
     program_particule->disableAttributeArray("in_position");
     program_particule->disableAttributeArray("in_uv");
-    program_particule->release();
+    program_particule->release();*/
 }
 
 
